@@ -12,10 +12,10 @@ export default function Navbar() {
         <div className="navbar" style={{ background: color }}>
             <nav>
                 <Link to="/" className="brand">
-                    <h1>Recipe Book</h1>
+                    <h1>Activity Records</h1>
                 </Link>
                 <Searchbar />
-                <Link to="/create">Create Recipe</Link>
+                <Link to="/create">Add Activity</Link>
             </nav>
         </div>
     )

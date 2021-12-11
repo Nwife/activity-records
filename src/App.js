@@ -5,7 +5,7 @@ import Navbar from './componenets/Navbar';
 import Home from './pages/home/Home';
 import Create from './pages/create/Create';
 import Search from './pages/search/Search';
-import Recipe from './pages/recipes/Recipe';
+import Activity from './pages/activities/Activity';
 import ThemeSelector from './componenets/ThemeSelector';
 
 //styles
@@ -29,8 +29,8 @@ function App() {
           <Route path="/search">
             <Search />
           </Route>
-          <Route path="/recipes/:id">
-            <Recipe/>
+          <Route path="/activities/:id">
+            <Activity/>
           </Route>
         </Switch>
       </BrowserRouter>
