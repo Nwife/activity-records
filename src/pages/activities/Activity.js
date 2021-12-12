@@ -22,7 +22,7 @@ export default function Activity() {
                     <h2 className="page-title">{activity.title}</h2>
                     <p>Date: {activity.date}</p>
                     <ul>
-                        People: 
+                        People involved: 
                         {activity.people.map(ing => <li key={ing}>{ing}</li>)}
                     </ul>
                     <p className="method">{activity.details}</p>

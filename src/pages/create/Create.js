@@ -7,29 +7,29 @@ import './Create.css';
 
 export default function Create() {
     const [title, setTitle] = useState("");
-    const [method, setMethod] = useState("");
-    const [cookingTime, setCookingTime] = useState("");
-    const [newIngredient, setNewIngredient] = useState("");
-    const [ingredients, setIngredients] = useState([]);
-    const ingredientInput = useRef(null);
+    const [details, setDetails] = useState("");
+    const [date, setDate] = useState("");
+    const [newPeople, setNewPeople] = useState("");
+    const [people, setPeople] = useState([]);
+    const peopleInput = useRef(null);
     const history = useHistory();
 
-    const {postData, data, error} = useFetch('http://localhost:8000/recipes', 'POST');
+    const {postData, data, error} = useFetch('http://localhost:8000/activities', 'POST');
  
     const handleSubmit = (e) => {
         e.preventDefault();
-        postData({title, ingredients, method, cookingTime: cookingTime + ' minutes'})
-        console.log(title, method, cookingTime, ingredients);
+        postData({title, people, details, date: date})
+        console.log(title, details, date, people);
     }
 
     const handleAdd = (e) => {
         e.preventDefault()
-        const ing = newIngredient.trim() //trim removes white space
-        if (ing && !ingredients.includes(ing)){
-            setIngredients(prevIngredients => [...prevIngredients, ing])
+        const ing = newPeople.trim() //trim removes white space
+        if (ing && !people.includes(ing)){
+            setPeople(prevPeople => [...prevPeople, ing])
         }
-        setNewIngredient("");
-        ingredientInput.current.focus();
+        setNewPeople("");
+        peopleInput.current.focus();
     }
 
     //redirect the user when we get a response
@@ -41,11 +41,11 @@ export default function Create() {
     
     return (
         <div className='create'>
-            <h2 className="page-title">Add a New Recipe</h2>
+            <h2 className="page-title">Add a New Activity</h2>
 
             <form onSubmit={handleSubmit}>
                 <label>
-                    <span>Recipe title:</span>
+                    <span>Activity title:</span>
                     <input 
                         type= "text" 
                         onChange= {(e) => setTitle(e.target.value)}
@@ -55,37 +55,37 @@ export default function Create() {
                 </label>
 
                 <label>
-                    <span>Recipe ingredients:</span>
+                    <span>People involved:</span>
                     <div className="ingredients">
                         <input 
                             type="text" 
-                            onChange= {(e) => setNewIngredient(e.target.value)}
-                            value= {newIngredient}
-                            ref= {ingredientInput}
+                            onChange= {(e) => setNewPeople(e.target.value)}
+                            value= {newPeople}
+                            ref= {peopleInput}
                         />
                         <button onClick={handleAdd} className="btn">add</button>
                     </div>
                 </label>
-                <p>Current ingredients: {ingredients.map(i => <em key={i}>{i},</em>)}</p>
+                <p>Current people: {people.map(i => <em key={i}>{i},</em>)}</p>
 
                 <label>
-                    <span>Recipe method:</span>
+                    <span>Activity details:</span>
                     <textarea
-                        onChange= {(e) => setMethod(e.target.value)}
-                        value= {method}
+                        onChange= {(e) => setDetails(e.target.value)}
+                        value= {details}
                         required
                     />
                 </label>
 
                 <label>
-                    <span>Cooking time (minutes):</span>
+                    <span>Activity date:</span>
                     <input 
-                        type="number"
-                        onChange={(e) => setCookingTime(e.target.value)}
-                        value= {cookingTime}
+                        type="date"
+                        onChange={(e) => setDate(e.target.value)}
+                        value= {date}
                     />
                 </label>
-
+                <p>{date}</p>
                 <button className="button">Submit</button>
             </form>
         </div>

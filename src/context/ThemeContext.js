@@ -18,7 +18,7 @@ const themeReducer = (state, action) => {
 export function ThemeProvider({ children }) { //Now remember, the children prop represents any children components that this component might wrap in the future so that then we can render those children inside this component template.
     const [state, dispatch] = useReducer(themeReducer, { //themeReducer is the name of our reducer function, the second value is the intial value of our useareducer hook which is an object
         color: '#58249c',
-        mode: 'dark'
+        mode: 'light'
     })
 
     const changeColor = (color) => { 

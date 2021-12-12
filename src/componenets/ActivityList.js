@@ -15,7 +15,7 @@ export default function ActivityList({activities}) {
             {activities.map((activity) => (
                 <div key={activity.id} className={`card ${mode}`}>
                     <h3>{activity.title}</h3>
-                    <p>{activity.date} to make.</p>
+                    <p>{activity.date}</p>
                     <div>{activity.details.substring(0, 100)}...</div>
                     <Link to={`/activities/${activity.id}`}>more details</Link>
                 </div>

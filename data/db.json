@@ -2,30 +2,30 @@
   "activities": [
     {
       "id": "1",
-      "title": "Gresham Microfinance",
+      "title": "Gresham Microfinance Bank",
       "people": [
         "Tobe",
         "Nzube",
         "Ife",
         "Titi"
       ],
-      "details": "1. Pre-heat the oven to 200C/3C/gas 5. Place the carrot, leek and tofu in a large bowl. Add the stock and mix well. 2. Add the rest of the ingredients and mix well. 3. Place the mixture in a large bowl and cover with a lid. 4. Place the lid on the oven and cook for 40 minutes. 5. Serve with a slaw of your choice",
+      "details": "1. Installed bio-metric devices 2. Installed TPC-543 staff registartion system. 3. Trained the staff on he use of the software",
       "date": "2021-01-21"
     },
     {
-      "id": "1",
-      "title": "Gresham Microfinance",
+      "id": "2",
+      "title": "Today Solution",
       "people": [
         "Kemi",
         "Nzube",
         "Ife",
         "Titi"
       ],
-      "details": "1. Pre-heat the oven to 200C/3C/gas 5. Place the carrot, leek and tofu in a large bowl. Add the stock and mix well. 2. Add the rest of the ingredients and mix well. 3. Place the mixture in a large bowl and cover with a lid. 4. Place the lid on the oven and cook for 40 minutes. 5. Serve with a slaw of your choice",
-      "date": "2021-01-21"
+      "details": "1. Performed a system test and evaluation 2.Installed CCTV and biometric devices. 3. Installed and setup biometric devices. 4. Performed a routine check-up on companys in-house software.",
+      "date": "2021-04-12"
     },
     {
-      "id": "1",
+      "id": "3",
       "title": "Gresham Microfinance",
       "people": [
         "Kine",
@@ -33,8 +33,20 @@
         "Ifehi",
         "Titi"
       ],
-      "details": "1. Pre-heat the oven to 200C/3C/gas 5. Place the carrot, leek and tofu in a large bowl. Add the stock and mix well. 2. Add the rest of the ingredients and mix well. 3. Place the mixture in a large bowl and cover with a lid. 4. Place the lid on the oven and cook for 40 minutes. 5. Serve with a slaw of your choice",
+      "details": "1.Installed biometric lock and sign up devices 2. Performed routine checkup on their systems. 3. Had a meeting with  users of curret system and noted their complains.",
       "date": "2021-01-21"
+    },
+    {
+      "title": "Island Microfinance Bank",
+      "people": [
+        "Gabriel",
+        "Daniel",
+        "Dominic",
+        "Sophia"
+      ],
+      "details": "1.Install wire cable\n2.Test the software\n3.Implement the test",
+      "date": "2021-12-07",
+      "id": "Pe7kGFd"
     }
   ]
 }
