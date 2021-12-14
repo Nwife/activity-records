@@ -12,7 +12,7 @@ export default function Navbar() {
         <div className="navbar" style={{ background: color }}>
             <nav>
                 <Link to="/" className="brand">
-                    <h1>Activity Records</h1>
+                    <h1>ISSL Activity Records</h1>
                 </Link>
                 <Searchbar />
                 <Link to="/create">Add Activity</Link>

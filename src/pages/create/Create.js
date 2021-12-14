@@ -83,9 +83,9 @@ export default function Create() {
                         type="date"
                         onChange={(e) => setDate(e.target.value)}
                         value= {date}
+                        required
                     />
                 </label>
-                <p>{date}</p>
                 <button className="button">Submit</button>
             </form>
         </div>
