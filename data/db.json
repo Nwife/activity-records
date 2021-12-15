@@ -10,11 +10,11 @@
         "Titi"
       ],
       "details": "1. Installed bio-metric devices 2. Installed TPC-543 staff registartion system. 3. Trained the staff on he use of the software",
-      "date": "2021-01-21"
+      "date": "2021-06-21"
     },
     {
       "id": "2",
-      "title": "Today Solution",
+      "title": "iBank",
       "people": [
         "Kemi",
         "Nzube",
@@ -22,66 +22,31 @@
         "Titi"
       ],
       "details": "1. Performed a system test and evaluation 2.Installed CCTV and biometric devices. 3. Installed and setup biometric devices. 4. Performed a routine check-up on companys in-house software.",
-      "date": "2021-04-12"
+      "date": "2021-07-24"
     },
     {
       "id": "3",
       "title": "Gresham Microfinance",
       "people": [
-        "Kine",
+        "Kemi",
         "Nzube",
-        "Ifehi",
+        "Ifechi",
         "Titi"
       ],
       "details": "1.Installed biometric lock and sign up devices 2. Performed routine checkup on their systems. 3. Had a meeting with  users of curret system and noted their complains.",
-      "date": "2021-01-21"
+      "date": "2021-07-28"
     },
     {
       "title": "Island Microfinance Bank",
       "people": [
-        "Gabriel",
-        "Daniel",
-        "Dominic",
-        "Sophia"
+        "Nzube",
+        "Ifechi",
+        "Ife",
+        "Kemi"
       ],
-      "details": "1.Install wire cable\n2.Test the software\n3.Implement the test",
-      "date": "2021-12-07",
+      "details": "1.Install wire cable2.Test the software3.Implement the test",
+      "date": "2021-09-07",
       "id": "Pe7kGFd"
-    },
-    {
-      "title": "fwfwedf",
-      "people": [
-        "ujujt",
-        "tht"
-      ],
-      "details": "rggirb urbgu g geryg urbgg gryr gy g gery",
-      "date": "",
-      "id": "D0UfuPB"
-    },
-    {
-      "title": "jfnldj",
-      "people": [
-        "heke",
-        "jejke",
-        "jele",
-        "je",
-        "hekl"
-      ],
-      "details": "nerjkje jerjkerklerjrler jkelerjlre jeljr jeljr jkerjlrnke3 neke jerjrek njerkjre k3rnr ",
-      "date": "",
-      "id": "y4tUgic"
-    },
-    {
-      "title": "klkee jerjlqe",
-      "people": [
-        "kfkledf",
-        "jeejle",
-        "nedjljed",
-        "nejl"
-      ],
-      "details": "neked jkejled jlele ele jlqele",
-      "date": "2021-09-16",
-      "id": "iDNFEae"
     }
   ]
 }
